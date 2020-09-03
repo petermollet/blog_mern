@@ -1,0 +1,58 @@
+/**/
+
+.container {
+    width: 90% !important;
+    height: calc(100vh - 200px) !important;
+    margin: 100px auto 0 auto !important;
+    display: flex !important;
+}
+
+.blog {
+    flex: 1 0 60%; 
+    overflow: scroll;
+    margin: 0 20px
+}
+.posts {
+    font-weight: 600
+}
+.menu {
+    flex: 0 1 10%
+}
+.categories {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    flex-direction: column
+}
+.category {
+    color: "navy";
+    margin: 3px 0;
+    font-weight: "800";
+}
+
+.info {
+    display: "flex";
+    justify-content: "space-between";
+}
+
+.blogUL {
+    padding: 0
+}
+
+.add {
+    flex: 0 1 30%;
+    margin-left: 50px
+}
+a {
+    color: #000 !important
+}
+.plus {
+    font-size: 22px;
+    font-weight: 700;
+    background: white;
+    border-radius: 5px;
+}
+
+
+
+/**/
